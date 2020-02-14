@@ -16,7 +16,7 @@ public class Video implements Serializable {
   private Integer price;
   private java.util.Date createTime;
   private Integer online;
-  private double point;
+  private Double point;
 
 
   public Integer getId() {
@@ -91,7 +91,7 @@ public class Video implements Serializable {
   }
 
 
-  public double getPoint() {
+  public Double getPoint() {
     return point;
   }
 
